@@ -17,7 +17,7 @@
                 height: 100%;
                 width: 100%;
                 /*background:#fefefe;*/
-                background-image: url(../img/note3.gif);
+                background-image:url(../img/note3.gif);
         }
         
         .maxw {
@@ -38,7 +38,21 @@
            background-position: center;
        
         } 
+.logo{height: 500px;
+    align-content: center;}
+.hid{}
+.col{color: blue; text-align: justify;  }
+
+#hid h1, #hid h2{
+    font-size: 150%;
+    font-family: 'Marmelad', sans-serif;
+    font-weight: bold;
+    color:blue;
+    text-align: center;
+ }
              
+
+
       #wrapper {
                 position: relative;
                 margin: 0 auto;
@@ -77,6 +91,7 @@
             margin:0 5px;
             /*background:#EAF2F5;*/
             min-height: 350px;
+            text-align: justify;
         }
               
                     #s_left {
@@ -106,7 +121,9 @@
         	width: 100%;
             min-width:240px;
         	height: 100px;
-        	background: #AFBFC6;
+            text-align: center;
+                  font-size: 18px;
+        	/*background: #AFBFC6;*/
         	position: relative;
         }
         
@@ -226,11 +243,11 @@ ul.vmenu li a {
 	-ms-box-shadow:inset 0 1px 0 rgba(255,255,255,0.1);
 	box-shadow:inset 0 1px 0 rgba(255,255,255,0.1);	
 	border-bottom:1px solid #292b30;
-	color:##000;
+	color:blue;
 	display:block;
 	text-decoration:none;
 	padding:10px 10px 10px 40px;
-	height:18px;
+	height:27px;
 }
 ul.vmenu li:first-child a {box-shadow:none}
 /*ul.vmenu li a:hover {background: url(../images/bg-li-a-hover.png) repeat-x
